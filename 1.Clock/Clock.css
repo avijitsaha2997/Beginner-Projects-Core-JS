@@ -1,0 +1,61 @@
+/** @format */
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+
+  background-image: url(https://cdn.wallpapersafari.com/27/63/K89E4N.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+}
+.clock {
+  display: flex;
+}
+.clock div {
+  margin: 5px;
+}
+.clock span {
+  width: 100px;
+  height: 80px;
+  background: rgb(160, 60, 135);
+  opacity: 0.8;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+.clock .text {
+  height: 30px;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: rgb(29, 10, 37);
+  opacity: 0.7;
+}
+
+.ampm {
+  width: 50px;
+  height: 30px;
+  background: rgb(160, 60, 135);
+  opacity: 0.8;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  background: rgb(104, 51, 153);
+}

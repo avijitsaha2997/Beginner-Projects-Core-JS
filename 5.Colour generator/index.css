@@ -1,0 +1,27 @@
+/** @format */
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+h1 {
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.color-container {
+  background-color: skyblue;
+  width: 300px;
+  height: 130px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  border: solid black 2px;
+  border-radius: 20px;
+}
